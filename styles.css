@@ -7,15 +7,15 @@
 }
 
 :root {
-  --bg: #e4dcc8;
-  --text: #494645;
-  --container: #fcf5e4;
+  --bg: #ff89b1;
+  --text: #242322;
+  --container: #ffb5d3;
   --accent: black;
-  --highlight: #519d5c;
+  --highlight: #fffae4;
 }
 
 body {
-  font-family: "Cascadia Code", sans-serif;
+  font-family: "Berlin Sans FB", sans-serif;
   background-color: var(--bg);
   color: var(--text);
   height: 100dvh;
@@ -54,6 +54,7 @@ h1 {
   font-weight: 600;
   color: var(--accent);
   margin-bottom: 0.5rem;
+  text-decoration: underline;
 }
 
 em {
